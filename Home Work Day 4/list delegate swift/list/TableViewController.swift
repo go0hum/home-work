@@ -20,21 +20,11 @@ class TableViewController: UITableViewController {
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
         super.viewDidLoad()
     }
-
-    // MARK: - Table view data source
-
-    //override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        //return 0
-    //}
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-
-        
-            let dataToBeSent = groceryList[indexPath.row]
-            self.delegate?.sendDataToFirstViewController(myData: dataToBeSent)
-        self.dismiss(animated: true)
-        
+        let dataToBeSent = groceryList[indexPath.row]
+        self.delegate?.sendDataToFirstViewController(myData: dataToBeSent)
+        self.navigationController?.popToRootViewController(animated: true)
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
