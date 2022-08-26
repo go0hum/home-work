@@ -127,3 +127,24 @@ output: nil
 
 Curate a music list
 
+Apple has asked you to curate a music list
+
+They have asked you to curate a top 10 list of either the greatest albums, bands or musical acts in the last 10 years. They want your curated list to return an alphabetically sorted array of the below.
+
+They want you to build this app using MVC architecture
+They also want you to use both Navigation and TabBarControllers
+
+The Home Screen of the TabBarController should introduce your top 10 project. A second tab should take you to your curated list of artists held in a TableView.
+
+Each TableViewCell containing an artist should have a text label displaying the name and an image of the musical act.
+
+Clicking on a cell should take me to a detail screen that displays a Title of the artist or act, a reference image of that musical talent and have a label that displays some information detailing why the band is on your list.
+
+
+In Total Three (3) screens are required for this app. 
+
+A home view in your TabBarController
+A second tab that is a TableViewController with your list
+A details screen with a Title, Image, & Text about your choice.
+
+![ViewController cycle](https://github.com/go0hum/home-work/blob/main/Home%20Work%20Day%206/img/musiclist.png?raw=true)
