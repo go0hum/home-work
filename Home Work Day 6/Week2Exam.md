@@ -121,3 +121,9 @@ Also factor in empty or single-element arrays.
 input: [1]
 output: nil
 
+[Code Section 2 Coding](https://github.com/go0hum/home-work/tree/main/Home%20Work%20Day%206/section2coding%20exam%202)
+
+## Section 3 Coding
+
+Curate a music list
+
