@@ -41,7 +41,7 @@ Followings are view lifecycle methods :
 . viewWillDisappear(_ animated: Bool)
 . viewDidDisappear(_ animated: Bool)
 
-![ViewController cycle](https://github.com/go0hum/home-work/Home%20Work%20Day%206/img/viewcycle.png?raw=true)
+![ViewController cycle](https://github.com/go0hum/home-work/blob/main/Home%20Work%20Day%206/img/viewcycle.png?raw=true)
 
 loadView()
 This event creates the view that the controller manages.
