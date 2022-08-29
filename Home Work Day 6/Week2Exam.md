@@ -148,3 +148,5 @@ A second tab that is a TableViewController with your list
 A details screen with a Title, Image, & Text about your choice.  
 
 ![ViewController cycle](https://github.com/go0hum/home-work/blob/main/Home%20Work%20Day%206/img/musiclist.png?raw=true)
+
+[Code Section 3 Coding](https://github.com/go0hum/home-work/tree/main/Home%20Work%20Day%206/music%20list%20exam)
